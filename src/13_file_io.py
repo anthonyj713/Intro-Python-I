@@ -11,7 +11,7 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 
 # YOUR CODE HERE
 
-with open('src/foo.txt') as f:
+with open('foo.txt') as f:
     print(f.read())
     f.closed
 
@@ -22,11 +22,11 @@ with open('src/foo.txt') as f:
 
 # YOUR CODE HERE
 
-with open('src/bar.txt', 'w') as f:
+with open('bar.txt', 'w') as f:
     f.write('Heres line 1')
     f.write('\nAnd line two')
     f.write('\nOKAYYYYYYY!!')
 
-with open('src/bar.txt') as f:
+with open('bar.txt') as f:
     print(f.read())
     f.closed
